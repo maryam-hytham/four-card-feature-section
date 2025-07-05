@@ -20,7 +20,7 @@ four card feature resposive section solving a challenge
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [view live site](https://maryam-hytham.github.io/four-card-feature-section/)
 
 ### Built with
 
