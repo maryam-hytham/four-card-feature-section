@@ -91,5 +91,7 @@ header p {
   .title-1 {
     font-size: 36px;
   }
-  
+  body{
+    padding: 8rem;
+  }
 }
