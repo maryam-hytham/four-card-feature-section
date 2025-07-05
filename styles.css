@@ -10,6 +10,7 @@ body {
   text-align: center;
   padding: 3rem 2rem;
   font-family: "Poppins";
+
 }
 header {
   color: hsl(234, 12%, 34%);
@@ -64,4 +65,27 @@ header p {
   display: flex;
   flex-direction: row;
   justify-content: end;
+}
+@media screen and (min-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 2rem;
+  }
+  .card.a,
+  .card.d {
+    grid-row: 1 / 3; 
+    align-self: center; 
+    justify-self: center; 
+  }
+  .card.b {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2; 
+  }
+
+  .card.c {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3; 
+  }
 }
